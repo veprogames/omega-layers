@@ -1,0 +1,18 @@
+:root{
+    --background-body: #232323;
+    --background-header: rgb(45, 45, 45);
+    --color-base: #232323;
+    --color-primary: #f2ae3a;
+    --color-hover: #2d2d2d;
+    --color-hover-strong: #3c3c3c;
+    --color-contrast: #bebebe;
+    --color-success: #293b2a;
+    --button-dark: #0a0a0a;
+    --notification--error: #a92424;
+    --notification--success: #38a019;
+    --notification--special: #99861b;
+}
+
+img[src*=".svg"]{
+    filter: invert(0.8);
+}

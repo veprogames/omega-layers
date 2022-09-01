@@ -1,0 +1,32 @@
+:root{
+    --background-body: #aa0000;
+    --background-header: #880000;
+    --color-base: #770000;
+    --color-primary: #FBDBD6;
+    --color-hover: #bb0000;
+    --color-hover-strong: #cc0000;
+    --button-dark: #4c0000;
+    --color-contrast: #FBDBD6;
+    --color-success: #707070;
+}
+
+@keyframes rotating{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+body{
+    font-family: "Lucida Console", "Typewriter", sans-serif;
+}
+
+* {
+    animation: rotating 1200s infinite linear;
+}
+
+img[src*=".svg"]{
+    filter: invert(0.8);
+}
